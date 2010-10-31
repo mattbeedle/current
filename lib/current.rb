@@ -30,7 +30,6 @@ module Current
     linktext = condition ? "#{text}" : text
     link_to(raw(linktext), path, options.merge(:class => klass.strip))
   end
-  alias :nav_link_to :nav_link_to?
 
 end
 
